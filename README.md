@@ -1,6 +1,6 @@
-#:desktop_computer: 112-1 師大科技系程式語言
+:desktop_computer: 112-1 師大科技系程式語言
 授課教師：蔡芸琤老師<br/>
-# <em><strong>姓名：許瑋庭<br/>
+姓名：許瑋庭<br/>
 系級：科技系二年級<br/>
 
 # 課程筆記區
