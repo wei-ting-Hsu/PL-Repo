@@ -4,5 +4,6 @@
 系級：科技系二年級<br/>
 
 # 課程筆記區
+https://github.com/wei-ting-Hsu/code-PL.git
 # 作業連結區
 # 專題連結區
