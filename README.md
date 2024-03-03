@@ -4,7 +4,7 @@
 系級：科技系二年級<br/>
 
 # 課程筆記區
-課堂練習: https://github.com/wei-ting-Hsu/code-PL.git
+課堂練習: https://github.com/wei-ting-Hsu/code-PL.git <br/>
 2/29課堂作業:
 # 作業連結區
 # 專題連結區
