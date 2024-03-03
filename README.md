@@ -5,6 +5,6 @@
 
 # 課程筆記區
 課堂練習: https://github.com/wei-ting-Hsu/code-PL.git <br/>
-2/29課堂作業:
+HW1:
 # 作業連結區
 # 專題連結區
