@@ -6,5 +6,6 @@
 # 課程筆記區
 課堂練習: https://github.com/wei-ting-Hsu/code-PL.git <br/>
 HW1: https://github.com/wei-ting-Hsu/code-PL/blob/main/HW1.ipynb
+HW2: https://github.com/wei-ting-Hsu/code-PL/blob/main/HW2.ipynb
 # 作業連結區
 # 專題連結區
