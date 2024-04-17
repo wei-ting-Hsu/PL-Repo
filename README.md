@@ -7,7 +7,7 @@
 課堂練習: https://github.com/wei-ting-Hsu/code-PL.git <br/>
 HW1: https://github.com/wei-ting-Hsu/code-PL/blob/main/HW1.ipynb <br/>
 HW2: https://github.com/wei-ting-Hsu/code-PL/blob/main/HW2.ipynb <br/>
-HW3:https://github.com/wei-ting-Hsu/code-PL/blob/main/PL_3.ipynb <br/>
-HW4:
+HW3: https://github.com/wei-ting-Hsu/code-PL/blob/main/PL_3.ipynb <br/>
+HW4: https://github.com/wei-ting-Hsu/code-PL/blob/main/HW4.ipynb
 # 作業連結區
 # 專題連結區
