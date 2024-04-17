@@ -10,4 +10,5 @@ HW1: https://github.com/wei-ting-Hsu/code-PL/blob/main/HW1.ipynb <br/>
 HW2: https://github.com/wei-ting-Hsu/code-PL/blob/main/HW2.ipynb <br/>
 HW3: https://github.com/wei-ting-Hsu/code-PL/blob/main/PL_3.ipynb <br/>
 HW4: https://github.com/wei-ting-Hsu/code-PL/blob/main/HW4.ipynb
+HW4講解影片: https://youtu.be/pK83T5szCps 
 # 專題連結區
