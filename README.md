@@ -8,6 +8,6 @@
 # 作業連結區
 HW1: https://github.com/wei-ting-Hsu/code-PL/blob/main/HW1.ipynb <br/>
 HW2: https://github.com/wei-ting-Hsu/code-PL/blob/main/HW2.ipynb <br/>
-HW3:  https://github.com/wei-ting-Hsu/code-PL/blob/main/HW4.ipynb <br/>
+HW3: [https://github.com/wei-ting-Hsu/code-PL/blob/main/HW4.ipynb](https://github.com/wei-ting-Hsu/code-PL/blob/main/HW3.ipynb) <br/>
 HW3講解影片: https://youtu.be/pK83T5szCps 
 # 專題連結區
