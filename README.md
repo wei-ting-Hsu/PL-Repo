@@ -11,5 +11,6 @@ HW2: https://github.com/wei-ting-Hsu/code-PL/blob/main/HW2.ipynb <br/>
 HW3: https://github.com/wei-ting-Hsu/code-PL/blob/main/HW3.ipynb <br/>
 HW3json檔: https://github.com/wei-ting-Hsu/code-PL/blob/main/nba.json <br/>
 HW3csv檔: [https://github.com/wei-ting-Hsu/code-PL/blob/main/nba.json](https://github.com/wei-ting-Hsu/code-PL/blob/main/nba.csv) <br/>
-HW3講解影片: https://youtu.be/pK83T5szCps 
+HW3講解影片: https://youtu.be/pK83T5szCps  <br/>
+HW4: https://github.com/wei-ting-Hsu/code-PL/blob/main/hw4.ipynb
 # 專題連結區
