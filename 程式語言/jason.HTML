@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer School</title>
+    <link rel="stylesheet" href="jason.CSS">
+    <script>
+        function searchCourses() {
+            var courseName = document.getElementById("courseName").value;
+            var university = document.getElementById("selectedUniversity").innerText;
+            var field = document.getElementById("selectedField").innerText;
+            var format = document.getElementById("selectedFormat").innerText;
+
+            if (courseName || (university !== "選擇學校" && field !== "選擇領域" && format !== "選擇形式")) {
+                window.location.href = "search_results.html?courseName=" + encodeURIComponent(courseName) + "&university=" + encodeURIComponent(university) + "&field=" + encodeURIComponent(field) + "&format=" + encodeURIComponent(format);
+            } else {
+                alert("請填寫所有欄位或輸入課程名稱");
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.dropdown-content a').forEach(function(element) {
+                element.addEventListener('click', function() {
+                    var parent = this.closest('.menu-item');
+                    var displayElement = parent.querySelector('.selected-value');
+                    displayElement.innerText = this.innerText;
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="book.jpg" alt="Summer School Logo">
+            <h1>SUMMER SCHOOL</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#profile"><img src="sign_in.png" alt="sign_in"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>暑修趣</h2>
+            <p>升大學前的暑假除了耍廢還能做什麼～我們整合了今年夏天各大網站的先修課程，省去你找課的麻煩。<br>快來瀏覽選擇你感興趣的課程，讓這個暑假成為你最有價值的時光。<br>邀請你一起探索屬於你的暑假學習樂趣！</p>
+            <div class="search-bar">
+                <input type="text" id="courseName" placeholder="課程名稱">
+                <button onclick="searchCourses()">搜索</button>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <ul class="menu">
+                    <li class="menu-item dropdown wide-dropdown">
+                        <a href="javascript:void(0);"><img src="school_icon_126269.png" alt="開課學校" class="icon">開課學校 <span class="selected-value" id="selectedUniversity">選擇學校</span></a>
+                        <ul class="dropdown-content wide">
+                            <li><a href="javascript:void(0);">中原大學</a></li>
+                            <li><a href="javascript:void(0);">中國文化大學</a></li>
+                            <li><a href="javascript:void(0);">國立臺北教育大學</a></li>
+                            <li><a href="javascript:void(0);">國立中央大學</a></li>
+                            <li><a href="javascript:void(0);">國立中正大學</a></li>
+                            <li><a href="javascript:void(0);">國立成功大學</a></li>
+                            <li><a href="javascript:void(0);">國立政治大學</a></li>
+                            <li><a href="javascript:void(0);">國立暨南國際大學</a></li>
+                            <li><a href="javascript:void(0);">國立東華大學</a></li>
+                            <li><a href="javascript:void(0);">國立清華大學</a></li>
+                            <li><a href="javascript:void(0);">國立臺北商業大學</a></li>
+                            <li><a href="javascript:void(0);">國立臺北大學</a></li>
+                            <li><a href="javascript:void(0);">國立臺北藝術大學</a></li>
+                            <li><a href="javascript:void(0);">國立臺灣大學</a></li>
+                            <li><a href="javascript:void(0);">國立臺灣師範大學</a></li>
+                            <li><a href="javascript:void(0);">國立臺灣海洋大學</a></li>
+                            <li><a href="javascript:void(0);">國立臺灣科技大學</a></li>
+                            <li><a href="javascript:void(0);">國立陽明交通大學</a></li>
+                            <li><a href="javascript:void(0);">國立高雄大學</a></li>
+                            <li><a href="javascript:void(0);">大同大學</a></li>
+                            <li><a href="javascript:void(0);">東海大學</a></li>
+                            <li><a href="javascript:void(0);">淡江大學</a></li>
+                            <li><a href="javascript:void(0);">臺北市立大學</a></li>
+                            <li><a href="javascript:void(0);">臺北醫學大學</a></li>
+                            <li><a href="javascript:void(0);">逢甲大學</a></li>
+                            <li><a href="javascript:void(0);">銘傳大學</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="feature">
+                <ul class="menu">
+                    <li class="menu-item dropdown">
+                        <a href="javascript:void(0);"><img src="school_icon_126269.png" alt="課程領域" class="icon">課程領域 <span class="selected-value" id="selectedField">選擇領域</span></a>
+                        <ul class="dropdown-content normal">
+                            <li><a href="javascript:void(0);">人文藝術</a></li>
+                            <li><a href="javascript:void(0);">自然科學</a></li>
+                            <li><a href="javascript:void(0);">邏輯運算</a></li>
+                            <li><a href="javascript:void(0);">社會科學</a></li>
+                            <li><a href="javascript:void(0);">專業課程</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="feature">
+                <ul class="menu">
+                    <li class="menu-item dropdown">
+                        <a href="javascript:void(0);"><img src="school_icon_126269.png" alt="授課形式" class="icon">授課形式 <span class="selected-value" id="selectedFormat">選擇形式</span></a>
+                        <ul class="dropdown-content normal">
+                            <li><a href="javascript:void(0);">實體授課</a></li>
+                            <li><a href="javascript:void(0);">線上授課</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-button">
+                <button onclick="searchCourses()">搜尋課程</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
