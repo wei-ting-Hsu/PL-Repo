@@ -50,7 +50,7 @@
 心靈樂活電影院,Cinema of mental health,臺北醫學大學,韓德彥,人文藝術,實體授課,https://www.n2.org.tw/enter/lesson/detail/378?f_que_year_s_num=7
 初級程式設計-Python,Fundamental Computer Programming-Python,國立東華大學,陳文盛,邏輯運算,線上授課,https://www.n2.org.tw/enter/lesson/detail/379?f_que_year_s_num=7
 永續發展與國際貿易,Sustainability Development and International Trade,國立政治大學,楊培侃,社會科學,實體授課,https://www.n2.org.tw/enter/lesson/detail/380?f_que_year_s_num=7
-環境研究一：人、環境與自然,"Environment Study One: Human, Environment & Nature",國立臺北藝術大學,陳俊欽,自然科學,實體授課,https://www.n2.org.tw/enter/lesson/detail/381?f_que_year_s_num=381?f_que_year_s_num=7
+環境研究一：人、環境與自然,"Environment Study One: Human, Environment & Nature",國立臺北藝術大學,陳俊欽,自然科學,實體授課,https://www.n2.org.tw/enter/lesson/detail/381?f_que_year_s_num=7
 表演與自我開發,Acting and self-development,國立中正大學,周力德,人文藝術,實體授課,https://www.n2.org.tw/enter/lesson/detail/382?f_que_year_s_num=7
 電腦遊戲設計導論,Introduction to computer game programming,國立中正大學,張漢呈,邏輯運算,實體授課,https://www.n2.org.tw/enter/lesson/detail/383?f_que_year_s_num=7
 文化資產保存與法規,Cultural Property and Regulations,國立中正大學,蘇全正,社會科學,實體授課,https://www.n2.org.tw/enter/lesson/detail/384?f_que_year_s_num=7
@@ -120,9 +120,9 @@ Python語言程式入門,Introduction to Computer Engineering,國立清華大學
             console.log("Filtering Courses with: ", courseName, university, field, format);
             return courses.filter(function(course) {
                 return (!courseName || course['課程名稱'].includes(courseName)) &&
-                       (!university || university === "選擇學校" || course['開課學校'] === university) &&
-                       (!field || field === "選擇領域" || course['課程領域'] === field) &&
-                       (!format || format === "選擇形式" || course['上課方式'] === format);
+                       (!university || university === "選擇開課學校" || course['開課學校'] === university) &&
+                       (!field || field === "選擇課程領域" || course['課程領域'] === field) &&
+                       (!format || format === "選擇授課形式" || course['上課方式'] === format);
             });
         }
 
@@ -152,6 +152,7 @@ Python語言程式入門,Introduction to Computer Engineering,國立清華大學
                 var courseLink = document.createElement("a");
                 courseLink.href = course['超連結'];
                 courseLink.innerText = "課程詳情";
+                courseLink.style.color = "#649292"; 
                 courseElement.appendChild(courseLink);
 
                 resultsContainer.appendChild(courseElement);
@@ -165,7 +166,7 @@ Python語言程式入門,Introduction to Computer Engineering,國立清華大學
     </script>
     <style>
         .course {
-            border: 1px solid #000;
+            border: 1px solid #684f3d;
             padding: 10px;
             margin: 10px 0;
         }
@@ -174,21 +175,23 @@ Python語言程式入門,Introduction to Computer Engineering,國立清華大學
 <body>
     <header>
         <div class="logo">
-            <img src="book.jpg" alt="Summer School Logo">
+            <?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 16L24 6L43 16L24 26L5 16Z" fill="none" stroke="#f9f1dc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M11 20V34.464C11 35.9282 12.0551 37.1872 13.4711 37.5594C15.6758 38.139 19.0564 39.2194 22.3562 41.0292C23.3775 41.5893 24.6225 41.5893 25.6438 41.0292C28.9436 39.2194 32.3242 38.139 34.5289 37.5594C35.9449 37.1872 37 35.9282 37 34.464V20" stroke="#f9f1dc" stroke-width="4" stroke-linejoin="round"/><path d="M43 16L43 32" stroke="#f9f1dc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
             <h1>SUMMER SCHOOL</h1>
         </div>
         <nav>
             <ul>
                 <li><a href="#courses">Courses</a></li>
                 <li><a href="#about">About Us</a></li>
-                <li><a href="#profile"><img src="sign_in.png" alt="sign_in"></a></li>
+                <li><a href="#profile"><?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 20C27.866 20 31 16.866 31 13C31 9.13401 27.866 6 24 6C20.134 6 17 9.13401 17 13C17 16.866 20.134 20 24 20Z" fill="none" stroke="#f9f1dc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 40.8V42H42V40.8C42 36.3196 42 34.0794 41.1281 32.3681C40.3611 30.8628 39.1372 29.6389 37.6319 28.8719C35.9206 28 33.6804 28 29.2 28H18.8C14.3196 28 12.0794 28 10.3681 28.8719C8.86278 29.6389 7.63893 30.8628 6.87195 32.3681C6 34.0794 6 36.3196 6 40.8Z" fill="none" stroke="#f9f1dc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="results">
+        <section class="title2">
             <h2>搜尋結果</h2>
+        </section>
+        <section class="results">
             <p>課程名稱: <span id="resultCourseName"></span></p>
             <p>開課學校: <span id="resultUniversity"></span></p>
             <p>課程領域: <span id="resultField"></span></p>

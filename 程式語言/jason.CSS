@@ -5,14 +5,18 @@ body, h1, h2, h3, p, ul, li {
     list-style: none;
     font-family: Arial, sans-serif;
 }
+h1{
+    color:#f9ebd9;
+}
 
 body {
-    background-color: #e0fbfc;
-    color: #333;
+    background-color: #f9f1dc;
+    color: #654846;
+
 }
 
 header {
-    background-color: #005f73;
+    background-color: #684f3d;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -21,7 +25,7 @@ header {
 }
 
 header a {
-    color: white;
+    color: #f9ebd9;
     text-decoration: none;
 }
 
@@ -53,23 +57,29 @@ header nav ul li img {
     width: 30px;
 }
 
+.title2{
+    text-align: center; 
+    padding-top: 10px;
+    color:#654846;
+}
+
 .hero {
     text-align: center;
     padding: 50px;
-    background-color: #f0f0f0;
-    border: 3px solid #a0c4ff;
+    background-color: #f9f1dc;
+    border: 3px solid #f9f1dc;
 }
 
 .hero h2 {
     font-size: 90px;
     margin-bottom: 20px;
-    color: #0754d2;
+    color: #684f3d;
 }
 
 .hero p {
     font-size: 18px;
     margin-bottom: 30px;
-    color: #333;
+    color: #684f3d;
 }
 
 .search-bar {
@@ -82,7 +92,8 @@ header nav ul li img {
     padding: 10px;
     font-size: 16px;
     width: 300px;
-    border: 2px solid #333;
+    border: 2px solid #7cabab;
+    ;
     border-radius: 25px;
     padding-left: 20px;
 }
@@ -90,7 +101,7 @@ header nav ul li img {
 .search-bar button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #333;
+    background-color: #7cabab;
     color: #fff;
     border: none;
     border-radius: 25px;
@@ -98,15 +109,21 @@ header nav ul li img {
 }
 
 .features {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 180px 80px;
-    background-color: #e0fbfc;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 80px;
+    padding: 50px;
+    border-radius: 30px;
+    border-color: 5px solid #f9f1dc;
+    background-color: #649292;
 }
 
 .features .feature {
-    background-color: #fff;
+    background-color: #f9f1dc;
     padding: 20px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -122,16 +139,20 @@ header nav ul li img {
 .menu {
     display: flex;
     gap: 20px;
+    background-color: #f9f1dc;
+    border-radius: 5px;
 }
 
 .menu-item {
+    color: #654846;
     position: relative;
+
 }
 
 .menu-item a {
-    color: #000;
+    color: #654846;
     text-decoration: none;
-    padding: 10px 20px;
+    
     display: flex;
     align-items: center;
     gap: 10px;
@@ -139,7 +160,8 @@ header nav ul li img {
 }
 
 .menu-item a:hover {
-    background-color: #b67300;
+    
+    background-color: #649292;
 }
 
 .menu-item a .icon {
@@ -152,7 +174,7 @@ header nav ul li img {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #f3ca00;
+    background-color: #a9c9c9;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
     z-index: 1;
     border-radius: 5px;
@@ -175,6 +197,7 @@ header nav ul li img {
 }
 
 .dropdown-content li a:hover {
+    
     background-color: #000;
     color: #fff;
 }
@@ -185,7 +208,7 @@ header nav ul li img {
 
 /* Specific styles for "開課學校" dropdown */
 .menu-item.wide-dropdown .dropdown-content {
-    width: 200px; /* Set specific width for "開課學校" dropdown */
+    width: 180px; /* Set specific width for "開課學校" dropdown */
 }
 
 /* Specific styles for other dropdowns to match the width of the parent element */
@@ -201,13 +224,20 @@ header nav ul li img {
 }
 
 .search-button button {
-    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 25px 60px;
     font-size: 16px;
-    background-color: #333;
+    background-color: #684f3d;
     color: #fff;
     border: none;
-    border-radius: 25px;
+    border-radius: 40px;
     cursor: pointer;
+}
+
+button svg {
+    display: block; 
 }
 
 /* Styles for go-back button */
@@ -220,7 +250,7 @@ header nav ul li img {
 .go-back button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #333;
+    background-color: #684f3d;
     color: #fff;
     border: none; 
     border-radius: 25px;
@@ -229,7 +259,12 @@ header nav ul li img {
 
 /* Styles for course display */
 .course {
-    border: 1px solid #000;
+    border: 1px solid #684f3d;
     padding: 10px;
     margin: 10px 0;
+}
+
+.results{
+    padding-top: 10px;
+    padding-left: 70px;
 }
