@@ -14,3 +14,4 @@ HW3csv檔: [https://github.com/wei-ting-Hsu/code-PL/blob/main/nba.json](https://
 HW3講解影片: https://youtu.be/pK83T5szCps  <br/>
 HW4: https://github.com/wei-ting-Hsu/code-PL/blob/main/hw4.ipynb
 # 專題連結區
+程式語言專題: https://github.com/wei-ting-Hsu/PL-Repo/tree/main/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80
